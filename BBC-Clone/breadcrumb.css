@@ -1,0 +1,21 @@
+.breadcrumb > li {
+    display: inline;
+    justify-content: space-around;
+}
+.breadcrumb li+li:before{
+    padding: 10px;
+    content: " | ";
+}
+.breadcrumb .nav-link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.breadcrumb a:hover{
+    text-decoration: underline;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
