@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+.middle-east{
+    height: 300px;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+.canada{
+    height: 140px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    margin: 0 5px 3px 5px;
+}
+.health{
+    height: 140px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    margin: 0 5px 3px 5px;
+}
+.work-life{
+    height: 140px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    margin: 5px 5px 3px 5px;
+}
+.culture{
+    height: 150px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+}
