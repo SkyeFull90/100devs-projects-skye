@@ -13,13 +13,10 @@
 .navigation a{
     cursor: pointer;
 }
-.navigation .breadcrumb1 .nav-link img{
+.navigation .breadcrumb .nav-link img{
    margin-left: 1px;
    width: auto;
     height: 150px;
     object-fit: contain;
     justify-items: auto;
-}
-.sign-in{
-    margin: 0 150px 0 0;
 }
