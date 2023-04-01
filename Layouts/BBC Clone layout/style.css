@@ -11,31 +11,33 @@ header{
     width: 50%;
     float: left;
     border: 1px solid black;
+    margin: 0 5px 0 0;
 }
 .canada{
     height: 140px;
-    width: 20%;
+    width: 23%;
     float: left;
     border: 1px solid black;
     margin: 0 5px 3px 5px;
 }
 .health{
     height: 140px;
-    width: 20%;
+    width: 23%;
     float: left;
     border: 1px solid black;
-    margin: 0 5px 3px 5px;
+    margin: 0 5px 4.5px 5px;
 }
 .work-life{
     height: 140px;
-    width: 20%;
+    width: 23%;
     float: left;
     border: 1px solid black;
-    margin: 5px 5px 3px 5px;
+    margin: 4.5px auto 3px 5px;
 }
 .culture{
-    height: 150px;
-    width: 20%;
+    height: 140px;
+    width: 23%;
     float: left;
     border: 1px solid black;
+    margin: 4.5px 5px 3px 5px;
 }
