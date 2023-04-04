@@ -12,32 +12,38 @@ header{
     float: left;
     border: 1px solid black;
     margin: 0 5px 0 0;
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/1676D/production/_113931029_composite.jpg.webp");
+    background-size: cover;
+
 }
-.canada{
+.block{
     height: 140px;
     width: 23%;
     float: left;
     border: 1px solid black;
-    margin: 0 5px 3px 5px;
+    margin: 5px auto 3px 5px;
 }
-.health{
-    height: 140px;
-    width: 23%;
-    float: left;
+.news{
+    height: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     border: 1px solid black;
-    margin: 0 5px 4.5px 5px;
 }
-.work-life{
-    height: 140px;
-    width: 23%;
-    float: left;
+
+.news1{
+    height: 50px;
+    width: 100%;
     border: 1px solid black;
-    margin: 4.5px auto 3px 5px;
+    float: left;
 }
-.culture{
-    height: 140px;
-    width: 23%;
-    float: left;
-    border: 1px solid black;
-    margin: 4.5px 5px 3px 5px;
+
+h5 {
+    cursor: default;
+    color: #9799a7;
+}
+h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
 }
