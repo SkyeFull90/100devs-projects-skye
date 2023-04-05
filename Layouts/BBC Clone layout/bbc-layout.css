@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+
+
 }
 header{
     height: 100px;
@@ -10,32 +12,29 @@ header{
     height: 300px;
     width: 50%;
     float: left;
-    border: 1px solid black;
-    margin: 0 5px 0 0;
     background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/1676D/production/_113931029_composite.jpg.webp");
     background-size: cover;
-
+    margin: 7px;
 }
 .block{
-    height: 140px;
+    height: 150px;
     width: 23%;
+    margin: 10px;
     float: left;
-    border: 1px solid black;
-    margin: 5px auto 3px 5px;
-}
+}   
+
 .news{
     height: 225px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
 }
 
 .news1{
     height: 50px;
     width: 100%;
-    border: 1px solid black;
     float: left;
+    clear: both;
 }
 
 h5 {
@@ -45,5 +44,5 @@ h5 {
 h5:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: black;
+    color: red;
 }

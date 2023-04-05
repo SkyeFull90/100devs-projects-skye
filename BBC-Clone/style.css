@@ -21,9 +21,50 @@
     justify-items: auto;
 }
 .midE{
+    height: 10px;
+    width: 10%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
     color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.canada {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtp2rkLCQ-s3HU6No-NTU6SGiE0vKaaUpcvzVdnW3ZBpUmsbMIXjTtnuUSjGIfkzQsVSw&usqp=CAU');
+    background-size: contain;
+}
+.election{
+    margin: 5px;
+}
+.election img{
+    height: 300px;
+    width: auto;
+}
+.health{
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/A632/production/_111864524_2020-04-18t130112z_2061940609_rc217g9mtg9h_rtrmadp_3_health-coronavirus-vaccine-oxford.jpg.webp");
+    background-size: contain;
+}
+.WORKLIFE{
+    background-image: url('https://ychef.files.bbci.co.uk/1600x900/p08ngz84.webp');
+    background-size: contain;
+}
+.culture{
+    background-image: url('https://ychef.files.bbci.co.uk/1600x900/p08nkrfx.webp');
+    background-size: contain;
+}
+.europe{
+    margin: 5px;
+}
+.europe img{
+    height: 300px;
+    width: auto;
+}
+.us-canada img{
+    height: 300px;
+    width: auto;
+}
+.us-canada{
+    margin: 5px;
 }
