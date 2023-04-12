@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 header{
-    height: 75px;
-    border: 1px solid royalblue;
+    height: 65px;
 }
 .navigation{
     background-color: #eee;
@@ -32,10 +31,84 @@ header{
     cursor: pointer;
 }
 .navigation .nav-link img{
-
-    margin-left: 1px;
-    width: auto;
-    height: 50px;
     object-fit: contain;
-    justify-items: center;
+} 
+ 
+label input{
+    height: 35px;
+    border: 0 solid transparent;
+    background-color: transparent;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 15px;
+} 
+label input:hover{
+    background-color: lightgrey;
+    border-radius: 5px;
+}  
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    object-fit: contain;
+    
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn{
+    justify-content: center;
+    align-items: center;
+}
+.breadcrumb-1 > li {
+    display: inline;
+}
+.breadcrumb-1 li+li::before {
+    padding: 5px;
+    content: " ";
+}
+.breadcrumb-1 .nav-btn a button{
+    cursor: pointer;
+    color: #eee;
+    border-radius: 5px;
+}
+button:active{
+    border: 0 solid transparent;
+}
+button:hover{
+    cursor: pointer;
+    outline-offset: 2px ridge #0a2a66;
+    box-shadow: #0a2a66;
+}
+button{
+    border: none;
+    height: 35px;
+    width: auto;
+    background-color: royalblue;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: "Nimbus Roman", sans-serif;
+}
+ h1{
+    margin: 0;
+    padding: 0;
+    font-size: auto;
+    display: flex;
+    align-content: flex-start;
+    flex-grow: 75;
+    color: #0a2a66;
+}
+ h1:hover{
+    color: royalblue;
 }
