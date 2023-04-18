@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 nav{
+
     height: 150px;
     width: auto;
     display: flex;
@@ -60,6 +61,10 @@ a:link{
 a:visited{
     color: lightslategray;
 }
+.main{
+    margin-left: 150px;
+
+}
 @media screen and (max-height: 650px) {
     .side-nav {
         display: inline;
@@ -74,5 +79,11 @@ a:visited{
 
     .side-nav a, .breadcrumb > li {
         display: inline;
+    }
+    nav img{
+        position: fixed;
+    }
+    .main{
+        margin-left: 0;
     }
 }
