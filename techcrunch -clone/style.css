@@ -60,3 +60,19 @@ a:link{
 a:visited{
     color: lightslategray;
 }
+@media screen and (max-height: 650px) {
+    .side-nav {
+        display: inline;
+        background-color: transparent;
+        position: relative;
+        padding-top: 0;
+    }
+
+    .side-nav a {
+        padding: 0;
+    }
+
+    .side-nav a, .breadcrumb > li {
+        display: inline;
+    }
+}
