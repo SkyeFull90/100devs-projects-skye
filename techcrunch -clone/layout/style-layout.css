@@ -55,6 +55,12 @@ a:link{
 a:visited{
     color: lightsteelblue;
 }
+.breadcrumb .nav-link .techCrunchPlus {
+    color: gold;
+}
+.breadcrumb .nav-link .techCrunchPlus:visited{
+    color: darkgoldenrod;
+}
 .main{
     margin-left: 200px;
     padding: 0 10px;
