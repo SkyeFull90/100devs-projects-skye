@@ -35,10 +35,13 @@
     margin: 0 5%;
     list-style: none;
   }
-  header nav li {
-    float: left;
-    width: 33%;
-  }
+ .breadcrumb > li{
+    display: inline;
+ }
+ .breadcrumb li+li::before{
+    padding: 10px;
+    content: " ";
+ }
    
   main > section{
     width: 50%;
