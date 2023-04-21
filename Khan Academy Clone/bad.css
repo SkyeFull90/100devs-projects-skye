@@ -21,27 +21,25 @@
   /* BASE STYLES
   /*******************************************/
   
-  body {
-  
-  }
+ 
   
   
   /******************************************
   /* LAYOUT
   /*******************************************/
-  header nav > * {
+ header nav > *{
     float: left;
     width: 10%;
-    margin: 0 5%;
-    list-style: none;
-  }
- .breadcrumb > li{
-    display: inline;
+    margin: 0 5% ;
+    
  }
- .breadcrumb li+li::before{
-    padding: 10px;
+  .breadcrumb > li{
+   display: inline;
+ }
+  .breadcrumb li+li{
     content: " ";
- }
+    padding: 10px;
+  }
    
   main > section{
     width: 50%;
