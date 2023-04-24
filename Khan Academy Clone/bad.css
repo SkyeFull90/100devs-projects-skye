@@ -4,18 +4,7 @@
   }
   
   /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
-      clear: both;
-  }
+
   
   /******************************************
   /* BASE STYLES
@@ -29,12 +18,12 @@
   /*******************************************/
  header nav > *{
     float: left;
-    width: 10%;
+    width: 20%;
     margin: 0 5% ;
-    
+
  }
   .breadcrumb > li{
-   display: inline;
+     display: inline;
  }
   .breadcrumb li+li{
     content: " ";
