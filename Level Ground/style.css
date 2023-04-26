@@ -13,8 +13,9 @@ clearfix:after {
 .clear {
    clear: both;
 } 
-.grey{
-    background-image: #66718a;
+
+ header nav+section{
+    background: #66718a;
 }
 header nav > *{
     height: 20px;
@@ -22,7 +23,12 @@ header nav > *{
     float: left;
     margin: 0 6%;
     list-style: none;
-     
+    background: #66718a;
+}
+
+header section {
+    float: left;
+    text-align: center;
 }
 img{
     margin: 0 3%;
