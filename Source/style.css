@@ -1,3 +1,97 @@
 *{
     box-sizing: border-box;
-}
+    color: #2e3e56;
+    font-family: "Helvetica", sans-serif;
+  }
+  .navigation{
+    background: #ecf2f4;
+  }
+  .breadcrumb > li{
+    display: inline;
+  }
+  .breadcrumb li+li::before{
+    content: " ";
+  }
+  .breadcrumb li > h1{
+    display: inline;
+    padding-right: 310px
+  }
+  .breadcrumb button {
+    margin-left: 310px;
+  }
+   a:link{
+    color: #2e3e56;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .breadcrumb button{
+    background: #2e3e56;
+    color: white;
+    padding: 5px 20px;
+    border: 3px;
+  }
+  p{
+    font: small-caps bold 24px;
+  }
+  
+  span{
+   text-transform: uppercase;
+   font-size: 14px;
+  }
+  
+  main > section {
+    float: left;
+    width: 30%;
+    margin: 5px 10px 20px 50px;
+    padding-top: 40px;
+  }
+  main img{
+    object-fit: contain;
+    height: 500px;
+    padding-left: 50px;
+  }
+  main h1{
+    font-size: 46px
+  }
+  main p{
+    font-size: 27px;
+  }
+  main input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background: lightgrey;
+    color: #2e3e56;
+  }
+  main button{
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #2e3e56;
+    color: white;
+    font-size: 17px;
+    border: none;
+  }
+  .features > section {
+    float: right;
+    width: 20%;
+  }
+   .section {
+    float: left;
+    width: 50%
+  }
+  
+  
+  @media screen and (max-height: 400px){
+    main > section{
+      float: none;
+    }
+    .features > section{
+      float: none;
+    }
+    main img{
+      float: none;
+    }
+    
+  }
