@@ -4,7 +4,7 @@
   
   .breadcrumb > li {
     display: inline;
-    padiing: 15px;
+    padding: 15px;
     font-family: "Helvetica", sans-serif;
   }
   a:link,
@@ -166,6 +166,8 @@
   .appointment {
     float: left;
     clear: both;
+    height: 150px;
+    padding: 30px 130px;
   }
   .lookbook {
     float: left;
