@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+nav, ul, main{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    flex-basis: 60%;
+}
+main section{
+    flex-basis: 48%;
+}
+main section + section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.container{
+    display: flex;
+}
