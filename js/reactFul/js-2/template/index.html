@@ -5,15 +5,24 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Temperture Convertor</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<h1>Temperature Convertor</h1>
 
+		<form>
+			<label for="celsius"> Celsius: </label>
+			<input id="celsius" type="text" placeholder="Enter Celsius">
+		</form>
+
+		<button id="convert" type="button" name="button">Convert</button>
+
+		<h2 id="placeToConvert"></h2>
+		
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
