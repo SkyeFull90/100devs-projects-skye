@@ -1,2 +1,16 @@
-# 100devs-projects-skye
-My work in progress 100devs projects
+# 100 Devs projects Skye
+
+My work in progress 100devs projects and working directory, 
+for Portfolio Skye. 
+
+This repo has multiple Language Projects: 
+
+HTML,
+
+CSS,
+
+JS,
+
+NodeJS, and
+
+ReactJS 
