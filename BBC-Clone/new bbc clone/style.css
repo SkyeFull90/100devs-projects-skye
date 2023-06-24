@@ -5,6 +5,11 @@ nav, ul, main{
     display: flex;
     justify-content: space-around;
 }
+nav{
+    height: 55px;
+    background: black;
+    color: #dddddd;
+}
 ul{
     flex-basis: 60%;
 }
