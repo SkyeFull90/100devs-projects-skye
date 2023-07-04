@@ -55,8 +55,3 @@ function ageChecker(){
     })
 } 
 ageChecker();
-
-//--- harder challenge
-//onclick of the h1
-//take the value from the input box
-//Place into the result of conditional in paragraph
