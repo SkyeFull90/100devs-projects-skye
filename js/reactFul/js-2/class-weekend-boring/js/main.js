@@ -12,5 +12,4 @@ function check() {
   }else {
     console.log("BORING")
   }
-
 }
