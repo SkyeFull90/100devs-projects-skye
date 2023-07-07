@@ -2,11 +2,49 @@
     box-sizing: border-box;
 }
 
-.header{
-    background-image: url() ;
-    background: no-repeat ;
+header{
+  background-image:  url("./images/jake-blucker-tMzCrBkM99Y-unsplash.jpg")   ;
+  background-position: center;
+  background-size: 2000px 2000px;
+  background-repeat: no-repeat;
+  color: #b55345; 
+  width: auto;
+  height: 1800px;
 }
-.navigation{
-    background-color: transparent;
-    color: blueviolet;
+nav{
+    position: fixed;
+}
+.nav-img{
+    cursor: pointer;
+    padding-right: 900px;
+}
+
+.breadcrumb > li{
+    display: inline;
+    cursor: pointer;
+}
+.breadcrumb li+li:before{
+   padding: 10px;
+    content: "  ";
+}
+.nav-link a{
+    text-decoration: none;
+    color: #475695;
+    font-size: 14px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header section{
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header section .breadcrumb li+li::before{
+    content: "|";
 }
