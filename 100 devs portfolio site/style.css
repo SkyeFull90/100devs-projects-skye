@@ -7,7 +7,7 @@ body{
 }
 header{
   background: transparent;
-  color: #b55345;
+  color: white;
   width: auto;
   height: 1800px;
 }
@@ -29,12 +29,16 @@ nav{
 }
 .nav-link a{
     text-decoration: none;
-    color: #475695;
+    color: rgb(174, 87, 255);
     font-size: 14px;
+}
+.nav-link a:hover{
+     color: blanchedalmond;
 }
 .nav-link:hover{
     text-decoration: underline;
     cursor: pointer;
+   
 }
 
 header section{
