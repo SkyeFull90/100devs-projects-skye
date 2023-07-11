@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    background-image:  url("./images/jake-blucker-tMzCrBkM99Y-unsplash.jpg")   ;
+    background-position: center;
+}
 header{
-  background-image:  url("./images/jake-blucker-tMzCrBkM99Y-unsplash.jpg")   ;
-  background-position: center;
-  background-size: 2000px 2000px;
-  background-repeat: no-repeat;
-  color: #b55345; 
+  background: transparent;
+  color: #b55345;
   width: auto;
   height: 1800px;
 }
