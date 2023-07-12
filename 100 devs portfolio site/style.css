@@ -10,7 +10,7 @@ header{
   background: transparent;
   color: white;
   width: auto;
-  height: 1800px;
+  height: 700px;
   font-size: 20px;
 }
 nav{
@@ -45,11 +45,12 @@ nav{
 }
 
 header section{
-    padding-top: 350px;
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 header section .breadcrumb li+li::before{
@@ -58,4 +59,16 @@ header section .breadcrumb li+li::before{
 .about-me-p {
     font-family: 'Indie Flower', sans-serif;
     font-size: 20px;
+}
+.portfolio-web{
+    background-color: darkgrey;
+    height: 500px;
+}
+.rock-climbing{
+    height: 300px;
+    background-color: #a85442;
+}
+.portfolio-video{
+    height: 300px;
+    background-color: blueviolet;
 }
