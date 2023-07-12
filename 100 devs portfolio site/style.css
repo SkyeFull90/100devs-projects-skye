@@ -70,5 +70,9 @@ header section .breadcrumb li+li::before{
 }
 .portfolio-video{
     height: 300px;
-    background-color: blueviolet;
+    background-color: darkcyan;
+}
+.end{
+    height: 400px;
+    background-color: transparent;
 }
