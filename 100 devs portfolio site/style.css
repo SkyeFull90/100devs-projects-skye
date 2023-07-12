@@ -4,19 +4,22 @@
 body{
     background-image:  url("./images/jake-blucker-tMzCrBkM99Y-unsplash.jpg")   ;
     background-position: center;
+    font-family: 'Raleway', sans-serif;
 }
 header{
   background: transparent;
   color: white;
   width: auto;
   height: 1800px;
+  font-size: 20px;
 }
 nav{
     position: fixed;
+    font-family: 'Indie Flower', sans-serif;
 }
 .nav-img{
     cursor: pointer;
-    padding-right: 900px;
+    padding-right: 730px;
 }
 
 .breadcrumb > li{
@@ -24,13 +27,13 @@ nav{
     cursor: pointer;
 }
 .breadcrumb li+li:before{
-   padding: 10px;
-    content: "  ";
+   padding: 6px;
+    content: " ";
 }
 .nav-link a{
     text-decoration: none;
     color: rgb(174, 87, 255);
-    font-size: 14px;
+    font-size: 18px;
 }
 .nav-link a:hover{
      color: blanchedalmond;
@@ -51,4 +54,8 @@ header section{
 
 header section .breadcrumb li+li::before{
     content: "|";
+}
+.about-me-p {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 20px;
 }
