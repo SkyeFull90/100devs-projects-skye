@@ -13,31 +13,37 @@
 </head>
 <body>
     <header id="header">
-        <nav class="navigation">
-           <ul class="breadcrumb">
-            <li class="nav-img"> <img src="images/mountain.svg" alt="icon" width="75"></li>        
-            <li class="nav-link"><a href="#">Home</a></li>
-            <li class="nav-link"><a href="#">Web Portfolio</a></li>
-            <li class="nav-link"><a href="#">Photo Portfolio</a></li>
-            <li class="nav-link"><a href="#">About</a></li>
-            <li class="nav-link"><a href="#">Contact Me</a></li>
-           </ul> 
-        </nav>
+        <nav class="breadcrumb">
+            <img src="./images/mountain.svg" width="75" alt="Navigation Image">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Web Portfolio</a></li>
+              <li><a href="#">The Photo Stash</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Me</a></li>
+            </ul>
+          </nav>
+          
         <section class="intro">
             <h3 class="about-me">Skyler Fullmer</h3>
             <ul class="breadcrumb">
-                <li class="about-item">Climber</li>
-                <li class="about-item">Developer</li>
-                <li class="about-item">Video Producer</li>
+                <li><a href="#climbing" class="climber">Climber </a></li>
+                <li><a href="#web-dev" id="developer">Developer </a></li>
+                <li><a href="#youtube" id="producer">Video Producer </a></li>
             </ul>
             <p class="about-me-p">Passionate about Rock Climbing, software development, gaming, Cosplay, and Public land access for those in the Rock Climbing Space.</p>
             <p class="about-me-p">Inspired by the mountains and cliffs I tend to explore. As well as gaming and anime. </p>
         </section>
         
     </header>
-    <section class="rock-climbing"></section>
-    <section class="portfolio-web"></section>
-    <section class="portfolio-video"></section>
+    <section class="rock-climbing" id="climbing">
+        <h1>Some of the routes I Climbed and can be viewed: <a href="https://www.mountainproject.com/user/112227120/skyler-fullmer/ticks" id="climber">Here</a></h1>
+        <h3>And below are a few routes I have really enjoyed.</h3>
+        <p>And a Site I built for climbing festivals around the world. So try and not sweat on keyboard please.</p>
+
+    </section>
+    <section class="portfolio-web" id="web-dev"></section>
+    <section class="portfolio-video" id="youtube"></section>
     <footer class="end"></footer>
 </body>
 </html>

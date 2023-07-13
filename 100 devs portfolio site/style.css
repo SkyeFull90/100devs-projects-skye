@@ -10,38 +10,74 @@ header{
   background: transparent;
   color: white;
   width: auto;
-  height: 700px;
+  height: 740px;
   font-size: 20px;
 }
 nav{
     position: fixed;
-    font-family: 'Indie Flower', sans-serif;
 }
-.nav-img{
-    cursor: pointer;
-    padding-right: 730px;
-}
-
-.breadcrumb > li{
+nav.breadcrumb {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav.breadcrumb img {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 900px; /* Add spacing between the image and breadcrumb */
+  }
+  
+  nav.breadcrumb ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap breadcrumb items on smaller screens */
+  }
+  
+  nav.breadcrumb li {
     display: inline;
-    cursor: pointer;
-}
-.breadcrumb li+li:before{
-   padding: 6px;
+    margin-right: 6px; /* Add spacing between breadcrumb items */
+  }
+  
+  nav.breadcrumb li:not(:last-child):after {
     content: " ";
-}
-.nav-link a{
+    margin-left: 6px; /* Add spacing between breadcrumb items */
+    color: #999; /* Adjust the color as needed */
+  }
+  
+  nav.breadcrumb a {
     text-decoration: none;
     color: rgb(174, 87, 255);
     font-size: 18px;
-}
-.nav-link a:hover{
-     color: blanchedalmond;
-}
-.nav-link:hover{
+  }
+  
+  nav.breadcrumb a:hover {
+    color: blanchedalmond;
     text-decoration: underline;
-    cursor: pointer;
-   
+  }
+  
+ .breadcrumb > li{
+    display: inline;
+    padding: 6px;
+ } 
+ 
+a, a:link{
+    text-decoration: none; 
+    color: blanchedalmond;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+a.climber, a.climber:link{
+    text-decoration: none;
+    color: burlywood;
+}
+a.climber:link, a.climber:hover{
+    text-decoration: underline;
+    color: #999;
 }
 
 header section{
@@ -54,7 +90,7 @@ header section{
 }
 
 header section .breadcrumb li+li::before{
-    content: "|";
+    content: "  |  ";
 }
 .about-me-p {
     font-family: 'Indie Flower', sans-serif;
@@ -65,8 +101,14 @@ header section .breadcrumb li+li::before{
     height: 500px;
 }
 .rock-climbing{
-    height: 300px;
+    height: 500px;   
     background-color: #a85442;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
 }
 .portfolio-video{
     height: 300px;
