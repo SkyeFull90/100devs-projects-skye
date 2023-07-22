@@ -1,20 +1,24 @@
 *{
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 body{
     background-image:  url("./images/jake-blucker-tMzCrBkM99Y-unsplash.jpg")   ;
     background-position: center;
     font-family: 'Raleway', sans-serif;
 }
+
 header{
-  background: transparent;
   color: white;
   width: auto;
   height: 740px;
   font-size: 20px;
+  padding: 10px;
 }
 nav{
     position: fixed;
+    padding: 5px;
 }
 nav.breadcrumb {
     display: flex;
@@ -48,7 +52,7 @@ nav.breadcrumb {
   
   nav.breadcrumb a {
     text-decoration: none;
-    color: rgb(174, 87, 255);
+    color: black;
     font-size: 18px;
   }
   
@@ -64,31 +68,38 @@ nav.breadcrumb {
  
 a, a:link{
     text-decoration: none; 
-    color: blanchedalmond;
+    color: #999;
 }
 
-a:hover{
+ a:hover{
     text-decoration: underline;
     color: gray;
 }
 a.climber, a.climber:link{
     text-decoration: none;
-    color: burlywood;
+    color: #a85442;
 }
-a.climber:link, a.climber:hover{
+ a.climber:hover{
     text-decoration: underline;
     color: #999;
 }
+a.developer, a.developer:link{
+  text-decoration: none;
+  color: rgb(228,54,129);
+}
 
+a.developer:hover{
+  text-decoration: underline;
+  color: #1c1b4d;
+}
 header section{
-    padding-top: 200px;
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
 }
-
 header section .breadcrumb li+li::before{
     content: "  |  ";
 }
@@ -96,25 +107,31 @@ header section .breadcrumb li+li::before{
     font-family: 'Indie Flower', sans-serif;
     font-size: 20px;
 }
-.portfolio-web{
-    background-color: darkgrey;
-    height: 500px;
-}
-.rock-climbing{
-    height: 500px;   
-    background-color: #a85442;
+main > section{
     display: flex;
     flex-direction: column;
-    justify-content: first baseline;
     align-items: center;
-    flex-wrap: wrap;
     padding-top: 30px;
 }
-.portfolio-video{
-    height: 300px;
-    background-color: darkcyan;
+main > section.rock-climbing{
+    height: 400px; 
+    background: rgb(250,112,154);
+    background: linear-gradient(135deg, rgba(250,112,154,0.49761911600577735) 0%, rgba(254,225,64,0.5032213569021359) 100%);     
+    padding: 30px;
+  }
+.portfolio-web{
+  background: rgb(255,154,68);
+  background: linear-gradient(135deg, rgba(255,154,68,0.5060224773503151) 0%, rgba(252,96,118,0.5172269591430323) 100%); 
+  height: 500px;
+}
+
+.portfolio-video {
+  height: 300px;
+  background: rgb(228,54,129);
+  background: linear-gradient(308deg, rgba(228,54,129,0.5088235977984944) 0%, rgba(193,48,111,0.48921575466123945) 26%, rgba(108,25,61,0.4920168751094187) 52%, rgba(82,105,221,0.5620448863139005) 78%, rgba(81,123,157,0.5340336818321079) 100%); 
+  
 }
 .end{
     height: 400px;
-    background-color: transparent;
-}
+    background: transparent;
+  }
