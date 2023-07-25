@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image:  url("./images/hobbithole.jpg") ;
+    background-image:  url("../images/hobbithole.jpg") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,64 +18,16 @@ header{
   font-size: 20px;
   padding: 10px;
 }
-nav{
-    position: fixed;
-    padding: 5px;
-}
-nav.breadcrumb {
-    display: flex;
-    align-items: center;
-  }
-  
-  nav.breadcrumb img {
-    height: 50px; /* Adjust the height as needed */
-    margin-right: 900px; /* Add spacing between the image and breadcrumb */
-  }
-  
-  nav.breadcrumb ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; /* Wrap breadcrumb items on smaller screens */
-  }
-  
-  nav.breadcrumb li {
-    display: inline;
-    margin-right: 6px; /* Add spacing between breadcrumb items */
-  }
-  
-  nav.breadcrumb li:not(:last-child):after {
-    content: " ";
-    margin-left: 6px; /* Add spacing between breadcrumb items */
-    color: #999; /* Adjust the color as needed */
-  }
-  
-  nav.breadcrumb a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
-  
-  nav.breadcrumb a:hover {
-    color: blanchedalmond;
-    text-decoration: underline;
-  }
-  
- .breadcrumb > li{
-    display: inline;
-    padding: 6px;
- } 
+
  
 a, a:link{
     text-decoration: none; 
-    color: #999;
+    color: darkcyan;
 }
 
  a:hover{
     text-decoration: underline;
-    color: gray;
+    color: darkcyan;
 }
 a.climber, a.climber:link{
     text-decoration: none;
@@ -114,26 +66,35 @@ main > section{
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 main > section.rock-climbing{
-    height: 400px; 
-    background: rgb(250,112,154);
-    background: linear-gradient(135deg, rgba(250,112,154,0.49761911600577735) 0%, rgba(254,225,64,0.5032213569021359) 100%);     
+    height: 550px; 
+    background-color: #a85442;
     padding: 30px;
-  }
+}
+section.tick-list > section+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .portfolio-web{
   background: rgb(255,154,68);
   background: linear-gradient(135deg, rgba(255,154,68,0.5060224773503151) 0%, rgba(252,96,118,0.5172269591430323) 100%); 
-  height: 500px;
+  height: 300px;
 }
 
 .portfolio-video {
   height: 300px;
   background: rgb(228,54,129);
   background: linear-gradient(308deg, rgba(228,54,129,0.5088235977984944) 0%, rgba(193,48,111,0.48921575466123945) 26%, rgba(108,25,61,0.4920168751094187) 52%, rgba(82,105,221,0.5620448863139005) 78%, rgba(81,123,157,0.5340336818321079) 100%); 
-  
 }
 .end{
     height: 400px;
     background: transparent;
-  }
+}
+button{
+  padding: 15px;
+}
