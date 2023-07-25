@@ -70,7 +70,7 @@ main > section{
     flex-wrap: wrap;
 }
 main > section.rock-climbing{
-    height: 550px; 
+    height: 600px; 
     background-color: #a85442;
     padding: 30px;
 }
