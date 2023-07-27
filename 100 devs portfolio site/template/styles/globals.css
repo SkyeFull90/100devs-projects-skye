@@ -89,8 +89,11 @@ section.tick-list > section+section{
   background: linear-gradient(308deg, rgba(228,54,129,0.5088235977984944) 0%, rgba(193,48,111,0.48921575466123945) 26%, rgba(108,25,61,0.4920168751094187) 52%, rgba(82,105,221,0.5620448863139005) 78%, rgba(81,123,157,0.5340336818321079) 100%); 
 }
 .end{
-    height: 400px;
+    height: 100px;
     background: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 button{
   padding: 15px;
