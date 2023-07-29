@@ -1,6 +1,7 @@
 nav{
     position: fixed;
     padding: 15px;
+   /* background-color: lightgray; */
 }
 nav.breadcrumb {
     display: flex;
@@ -28,7 +29,7 @@ nav.breadcrumb {
   }
   
   nav.breadcrumb li:not(:last-child):after {
-    content: " ";
+    content: " > ";
     margin-left: 6px; /* Add spacing between breadcrumb items */
     color: #999; /* Adjust the color as needed */
   }

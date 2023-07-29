@@ -92,7 +92,8 @@ section.tick-list > section+section{
     height: 100px;
     background: transparent;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     margin: 50px;
 }
 button{
