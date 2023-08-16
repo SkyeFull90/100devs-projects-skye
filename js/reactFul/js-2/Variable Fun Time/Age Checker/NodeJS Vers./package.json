@@ -4,9 +4,14 @@
   "description": "",
   "main": "ageChecker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:w": "jest --watch",
+    "test:cover": "jest --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
 }

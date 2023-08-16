@@ -87,7 +87,7 @@ function convertTemperature() {
 }
 
 // Call the function to start the temperature conversion
-convertTemperature();
+module.exports = convertTemperature();
 
 
 
