@@ -1,11 +1,12 @@
 // *Variables*
 // Declare a variable, assign it a boolean, and alert the value
-let hi = true;
-alert(hi);
-
+let hiToYou = true;
+//alert(hiToYou);
+console.log(hiToYou)
 // Declare a variable, reassign it to your favorite color, and console log the value
-
-
+let favColor
+favColor = "purple"
+console.log(favColor)
 // *Functions*
 // Create a function that takes in 4 numbers and returns the sum of the first 3 numbers divided by the fourth. Return the result. Call the function.
 
