@@ -1,5 +1,5 @@
 function sayHi(){
-    alert("Hello")
+    console.log("Hello")
 }
 let func = sayHi;
 

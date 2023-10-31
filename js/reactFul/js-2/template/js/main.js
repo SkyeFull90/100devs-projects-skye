@@ -12,3 +12,4 @@ function run() {
 
     document.querySelector('#placeToYell').innerText = convertTemp;
 }
+run()

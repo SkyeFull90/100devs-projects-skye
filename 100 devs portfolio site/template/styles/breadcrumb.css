@@ -1,0 +1,52 @@
+nav{
+    position: fixed;
+    padding: 15px;
+   /* background-color: lightgray; */
+}
+nav.breadcrumb {
+    display: flex;
+    align-items: center;
+    padding: 0 150px 0 150px;
+  }
+  
+  nav.breadcrumb img {
+    height: 115px; /* Adjust the height as needed */
+    margin-right: 800px; /* Add spacing between the image and breadcrumb */
+  }
+  
+  nav.breadcrumb ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap breadcrumb items on smaller screens */
+  }
+  
+  nav.breadcrumb li {
+    display: inline;
+    margin-right: 6px; /* Add spacing between breadcrumb items */
+  }
+  
+  nav.breadcrumb li:not(:last-child):after {
+    content: " > ";
+    margin-left: 6px; /* Add spacing between breadcrumb items */
+    color: #999; /* Adjust the color as needed */
+  }
+  
+  nav.breadcrumb a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  nav.breadcrumb a:hover {
+    color: blue;
+    text-decoration: underline ;
+  }
+  
+ .breadcrumb > li{
+    display: inline;
+    padding: 6px;
+ } 

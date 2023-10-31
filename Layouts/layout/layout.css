@@ -11,7 +11,7 @@ section{
     width: 33.3333%; 
     float: left;
 }
-div{
+.bottom {
     height: 325px;
     width: 50%;   
     float: left;

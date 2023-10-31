@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-vers.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ageChecker.js",
+  "scripts": {
+    "test": "jest",
+    "test:w": "jest --watch",
+    "test:cover": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
