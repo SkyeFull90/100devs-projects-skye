@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet/scss" href="style.scss">
+    <title>Document</title>
+</head>
+<body>
+
+<nav aria-label="Main Navigation">
+  <ul>
+    <li><a href="#">About</a></li>
+    <li class="dropdown">
+      <!-- aria-expanded needs managed with Javascript -->
+      <button
+              type="button"
+              class="dropdown__title"
+              aria-expanded="false"
+              aria-controls="sweets-dropdown"
+      >
+        Sweets
+      </button>
+      <ul class="dropdown__menu" id="sweets-dropdown">
+        <li><a href="#">Donuts</a></li>
+        <li><a href="#">Cupcakes</a></li>
+        <li><a href="#">Chocolate</a></li>
+        <li><a href="#">Bonbons</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Order</a></li>
+  </ul>
+</nav>
+</body>
+</html>

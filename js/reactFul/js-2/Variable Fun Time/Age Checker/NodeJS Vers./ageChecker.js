@@ -1,6 +1,7 @@
 const readline = require("readline");
 
 
+
 //ask user to enter a number for age, to validate
 function ageChecker(){
     const rl = readline.createInterface({
@@ -60,3 +61,10 @@ function ageChecker(){
     })
 } 
 module.exports = ageChecker;
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+
