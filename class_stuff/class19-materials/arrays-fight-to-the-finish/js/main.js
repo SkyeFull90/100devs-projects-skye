@@ -1,7 +1,10 @@
 //Create an array of movie titles. Loop through the array and each element to the h2.
 
+function movieArr (){
+    let movieTitles = ['fight to the finish ', ' shrek ', ' minions']
 
-//Create an array of numbers. Loop through the array and three to each number and replace the old number.
-
-
-//Find the average of all the numbers from question three
+    for(let i = 0; i < movieTitles.length; i++){
+        document.querySelector('h2').innerText += movieTitles[i]
+    }
+}
+movieArr();

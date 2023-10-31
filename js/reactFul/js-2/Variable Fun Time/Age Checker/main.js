@@ -5,7 +5,7 @@
 //onclick of the h1
 document.querySelector('#checkAge').addEventListener('click', ageChecker)
 //take the value from the input box
-function ageChecker(){
+function ageChecker1(){
     const age = parseFloat(document.querySelector('#danceDanceRevolution').value)
 
     //Place into the result of conditional in paragraph
@@ -24,7 +24,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 })    
-
+ageChecker1()
 function ageChecker(){
     rl.question('Enter your age: ', (age) => {
         let parsedAge = parseInt(age);
@@ -61,7 +61,7 @@ function ageChecker(){
         }
         //if under over 30, tell them there is nothing left to look forward to
         if (parsedAge > 30){
-            console.log('There is nothign left to look forward to, expect retirement and death')
+            console.log('There is nothing left to look forward to, expect retirement and death')
         }else {
             console.log('You have a lot to look forward to')
         }
