@@ -33,3 +33,11 @@ myFunction3("June");
 
 //*Loops*
 //Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
+function myFunction4(num) {
+    for (let i = 1; i <= num; i++) {
+        if (i % 5 !== 0) {
+            console.log(i);
+        }
+    }
+}       
+myFunction4(10);
