@@ -2,6 +2,9 @@
   "name": "class_stuff",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "mocha --require ts-node/register 'test.ts' 'test.js'"
+  },
   "devDependencies": {
     "bun-types": "latest",
     "mocha": "^10.2.0",
