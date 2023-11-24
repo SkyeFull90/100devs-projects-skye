@@ -15,11 +15,21 @@ function myFunction(num1, num2, num3) {
 myFunction(10, 5, 2);
 
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
-
+function myFunction2(num) {
+    console.log(Math.cbrt(num));
+}
+myFunction2(27);
 
 // *Conditionals*
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
-
+function myFunction3(month) {
+    if (month === "June" || month === "July" || month === "August") {
+        alert("YAY");
+    } else {
+        alert("Booo");
+    }
+}
+myFunction3("June");
 
 //*Loops*
 //Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
