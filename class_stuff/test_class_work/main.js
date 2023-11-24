@@ -1,7 +1,8 @@
 // main.js
 function assignFavoriteFood(food) {
     let myFavoriteFood = food;
-    alert(myFavoriteFood);
+    //alert(myFavoriteFood);
+    console.log(myFavoriteFood);
     return myFavoriteFood;
 }
 
