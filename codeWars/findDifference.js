@@ -5,3 +5,4 @@ findDifference([3, 2, 5], [1, 4, 4]);
 
 // 14
 module.exports = findDifference;
+// export default findDifference;

@@ -3,4 +3,5 @@ function fakeBin(x){
 }
 fakeBin('45385593107843568')
 
-module.exports = fakeBin;
+//module.exports = fakeBin;
+export default fakeBin;
