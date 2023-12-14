@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../100 devs portfolio site/site builds/portfolio_skye" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/sql/untitled" vcs="Git" />
   </component>
 </project>
