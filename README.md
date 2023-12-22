@@ -11,6 +11,6 @@ CSS,
 
 JS,
 
-NodeJS, and
+Node.js, and
 
 ReactJS 
