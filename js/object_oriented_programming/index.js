@@ -47,3 +47,7 @@ function increase(obj) {
 
 increase(obj);
 console.log(obj);  // Outputs: { value: 11 }
+
+for(let key in circle) {
+    console.log(key, circle[key]);
+}
