@@ -1,3 +1,4 @@
+import getDivisorsCnt from '../getDivisorsCnt.js';
 const assert = require('chai').assert;
 
 describe("Tests", () => {
