@@ -1,7 +1,9 @@
 // *Variables*
 // Declare a variable and assign it to a sentance as a string. Alert if the sentance is a question
 let bob = "Hello Wolrd, are you a user or a program?"
-alert(bob.includes("?"));
+//alert(bob.includes("?"));
+console.log(bob.endsWith("?"))
+console.log(bob)
 //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
 function replace(string){
     let newString = string.replace("jr. dev", "software engineer")
