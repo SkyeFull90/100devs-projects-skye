@@ -16,6 +16,17 @@ function squaredArr(arr){
 console.log(squaredArr(arr));
 //Create a function that takes string
 //Print the reverse of that string to the console
-
+function reverseString(str){
+    return str.split("").reverse().join("");
+}
+console.log(reverseString("Hello World"));
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
+function palindrome(str){
+    if(str === str.split("").reverse().join("")){
+        return "Palindrome";
+    } else {
+        return "Not a Palindrome";
+    }
+}
+console.log(palindrome("racecar"));
