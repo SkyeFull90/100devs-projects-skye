@@ -4,16 +4,15 @@
   "type": "module",
   "devDependencies": {
     "bun-types": "latest",
-    "nyc": "^15.1.0",
+    "chai": "^4.3.10",
     "mocha": "^10.2.0",
-    "chai": "^4.3.10"
+    "nyc": "^15.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "scripts": {
-  "test": "bun 'test'",
-  "coverage": "bun 'test' --coverage"
-
+    "test": "bun 'test'",
+    "coverage": "bun 'test' --coverage"
   }
 }
