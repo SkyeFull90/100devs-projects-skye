@@ -1,4 +1,5 @@
 const { assert } = require("chai")
+const removeUrlAnchor = require("../removeUrlAnchor.js");
 
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {
