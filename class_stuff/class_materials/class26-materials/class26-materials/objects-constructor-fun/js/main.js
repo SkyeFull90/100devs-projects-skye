@@ -14,3 +14,5 @@ function PizzaMachine(name, size, price, toppings) {
         this.price = newPrice;
     }
 }
+let pizza1 = new PizzaMachine("Pepperoni", "Large", 15, ["Pepperoni", "Cheese", "Sauce"]);
+console.log(pizza1);
