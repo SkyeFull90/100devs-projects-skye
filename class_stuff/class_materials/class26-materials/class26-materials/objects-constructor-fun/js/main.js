@@ -1,9 +1,10 @@
 //Create a constructor with 4 properties and 3 methods
-function PizzaMachine(name, size, price, toppings) {
+function PizzaMachine(name, size, price, toppings, sauce) {
     this.name = name;
     this.size = size;
     this.price = price;
     this.toppings = toppings;
+    this.sauce = sauce;
     this.addTopping = function (topping) {
         this.toppings.push(topping);
     }
@@ -14,5 +15,5 @@ function PizzaMachine(name, size, price, toppings) {
         this.price = newPrice;
     }
 }
-let pizza1 = new PizzaMachine("Pepperoni", "Large", 15, ["Pepperoni", "Cheese", "Sauce"]);
+let pizza1 = new PizzaMachine("Pepperoni", "Large", 15, ["Pepperoni", "Cheese", "Sausage"], "Marinara");
 console.log(pizza1);
