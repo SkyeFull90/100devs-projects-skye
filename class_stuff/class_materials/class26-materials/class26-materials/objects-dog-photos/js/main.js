@@ -6,5 +6,3 @@ fetch('https://dog.ceo/api/breeds/image/random')
         document.querySelector('img').src = data.message
     })
     .catch(err => console.log(err))
-
-    
