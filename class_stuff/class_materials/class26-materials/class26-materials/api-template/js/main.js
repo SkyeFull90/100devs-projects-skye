@@ -20,6 +20,7 @@ document.querySelector('button').addEventListener('click', getDrink)
 
 function getDrink(){
   const drink = document.querySelector('input').value
+  drink.replace(' ', '_');
   const url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`
 
   fetch(url)
