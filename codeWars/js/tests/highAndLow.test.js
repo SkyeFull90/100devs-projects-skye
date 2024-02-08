@@ -1,7 +1,7 @@
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-const { highAndLow } = require("../highAndLow");
+const  highAndLow  = require("../highAndLow");
 
 describe("Example tests", () => {
   it("Test 1", () => {
