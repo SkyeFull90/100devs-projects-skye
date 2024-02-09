@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-
+const sayHello = require('../sayHello');
 describe("Tests", () => {
   it("test", () => {
     assert.strictEqual(sayHello('Mr. Spock'), 'Hello, Mr. Spock')
