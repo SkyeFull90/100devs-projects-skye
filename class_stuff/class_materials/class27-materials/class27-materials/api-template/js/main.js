@@ -18,7 +18,13 @@ function getFetch(){
         }
         document.getElementById('explanation').innerText = data.explanation
         document.getElementById('title').innerText = data.title
-        document.getElementById('copyright').innerText = data.copyright
+        if(data.copyright){
+          document.getElementById('copyright').innerText = data.copyright
+        }
+        else{
+          document.getElementById('copyright').innerText = ''
+        }
+        
       })
       .catch(err => {
           console.log(`error ${err}`)
