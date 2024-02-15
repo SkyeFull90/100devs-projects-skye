@@ -7,6 +7,6 @@ function getRealFloor(n) {
         return n - 2;
     }
 }
+console.log(getRealFloor( 1));  //  0
 
-getRealFloor(1); // 0
-
+module.exports = getRealFloor;
