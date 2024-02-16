@@ -1,19 +1,20 @@
+
+
+//Create a button that fetches a new deck from the deck of cards API and stores the deck id in localStorage
+let deckId = ''
+
+document.querySelector('button').addEventListener('click', fetchDeck)
+
+function fetchDeck(){
+    fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
+    .then(response => response.json())
+    .then(data => {
+        deckId = data.deck_id
+        console.log(data)
+        localStorage.setItem('deckId', deckId)
+    })
+}
 //Create a button that adds 1 to a botScore stored in localStorage 
 
-document.querySelector('button').addEventListener('click', addScore)
-
-function addScore(){
-    let botScore = localStorage.getItem('botScore')
-    botScore++
-    localStorage.setItem('botScore', botScore)
-    document.getElementById('botScore').innerText = botScore
-    }
-
-let botScore = localStorage.getItem('botScore')
-if(botScore === null){
-    localStorage.setItem('botScore', 0)
-    botScore = 0
-}
-document.getElementById('botScore').innerText = botScore
 
 
