@@ -1,5 +1,3 @@
-
-
 //Create a button that fetches a new deck from the deck of cards API and stores the deck id in localStorage
 let deckId = ''
 
