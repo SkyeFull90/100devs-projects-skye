@@ -12,7 +12,8 @@ function fetchDeck(){
         localStorage.setItem('deckId', deckId)
     })
 }
-//Create a button that adds 1 to a botScore stored in localStorage 
+//Create a button that draws 2 cards from the deck in localStorage and stores the drawn cards in localStorage
+
 
 
 
