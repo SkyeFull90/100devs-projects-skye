@@ -7,6 +7,7 @@ fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
     .then(data => {
         console.log(data)
         deckId = data.deck_id
+        localStorage.setItem('deckId', deckId)
     })
     .catch(err => { 
         console.log(`error ${err}`)
