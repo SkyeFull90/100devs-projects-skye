@@ -1,6 +1,7 @@
 //Create a button that fetches a new deck from the deck of cards API and stores the deck id in localStorage
 let deckId = ''
 
+/*
 document.querySelector('button').addEventListener('click', fetchDeck)
 
 function fetchDeck(){
@@ -12,6 +13,7 @@ function fetchDeck(){
         localStorage.setItem('deckId', deckId)
     })
 }
+*/
 //Create a button that draws 2 cards from the deck in localStorage and stores the drawn cards in localStorage
 
 
