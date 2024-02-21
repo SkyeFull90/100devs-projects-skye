@@ -1,9 +1,9 @@
 //Create a button that fetches a new deck from the deck of cards API and stores the deck id in localStorage
 let deckId = ''
 
-document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('button').addEventListener('click', drawTwoCards)
 
-function getFetch(){
+function drawTwoCards(){
   const choice = document.querySelector('input').value
   const url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${choice}`
 
