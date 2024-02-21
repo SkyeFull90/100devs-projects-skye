@@ -1,42 +1,16 @@
 //Create a button that fetches a new deck from the deck of cards API and stores the deck id in localStorage
 
-/*
-document.querySelector('button').addEventListener('click', getDeck)
-
-function getDeck(){
-    const url = `https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1`
-    
-    fetch(url)
-        .then(res => res.json()) // parse response as JSON
-        .then(data => {
-            console.log(data)
-            deckId = data.deck_id
-            localStorage.setItem('deckId', deckId)
-        })
-        .catch(err => {
-            console.log(`error ${err}`)
-        });
-}
-
-//Create a button that fetches a new card from the deck of cards API and stores the card image in localStorage
-document.querySelector('button').addEventListener('click', drawCard)
-
-function drawCard(){
-    const url = `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`
-    
-    fetch(url)
-        .then(res => res.json()) // parse response as JSON
-        .then(data => {
-            console.log(data)
-            localStorage.setItem('cardImage', data.cards[0].image)
-        })
-        .catch(err => {
-            console.log(`error ${err}`)
-        });
-}
-    
-*/
 let deckId = ''
+
+fetch(url)
+    .then(res => res.json()) // parse response as JSON
+    .then(data => {
+        console.log(data)
+        deckId = data.deck_id
+    })
+    .catch(err => { 
+        console.log(`error ${err}`)
+    });
 
 document.querySelector('button').addEventListener('click', drawTwoCards)
 
