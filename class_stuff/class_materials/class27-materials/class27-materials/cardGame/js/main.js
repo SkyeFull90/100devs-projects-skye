@@ -12,9 +12,9 @@ fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
         console.log(`error ${err}`)
     });
 
-document.querySelector('button').addEventListener('click', drawTwoCards)
+document.querySelector('button').addEventListener('click', drawTwo)
 
-function drawTwoCards(){
+function drawTwo(){
   const choice = document.querySelector('input').value
   const url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${choice}`
 
