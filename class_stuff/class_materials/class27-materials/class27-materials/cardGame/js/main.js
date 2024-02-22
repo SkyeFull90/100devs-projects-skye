@@ -16,14 +16,14 @@ fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
 document.querySelector('button').addEventListener('click', drawTwo)
 
 function drawTwo(){
-  const choice = document.querySelector('input').value
-  const url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${choice}`
+  
+  const url = `https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`
 
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-        if(data.media_type === 'video'){
+       /* if(data.media_type === 'video'){
           document.querySelector
           ('iframe').src = data.url
         }
@@ -38,7 +38,7 @@ function drawTwo(){
         else{
           document.getElementById('copyright').innerText = ''
         }
-        
+    */   
       })
       .catch(err => {
           console.log(`error ${err}`)
