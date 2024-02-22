@@ -23,22 +23,7 @@ function drawTwo(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-       /* if(data.media_type === 'video'){
-          document.querySelector
-          ('iframe').src = data.url
-        }
-        else{
-          document.querySelector('img').src = data.hdurl
-        }
-        document.getElementById('explanation').innerText = data.explanation
-        document.getElementById('title').innerText = data.title
-        if(data.copyright){
-          document.getElementById('copyright').innerText = data.copyright
-        }
-        else{
-          document.getElementById('copyright').innerText = ''
-        }
-    */   
+      
       })
       .catch(err => {
           console.log(`error ${err}`)
