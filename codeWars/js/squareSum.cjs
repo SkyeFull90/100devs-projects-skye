@@ -7,3 +7,5 @@ function squareSum(n){
 const numbers = [1, 2, 2];
 const result = squareSum(numbers);
 console.log(result);  // Outputs: 9
+
+export default squareSum;
