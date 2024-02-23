@@ -1,6 +1,9 @@
-function squareSum(numbers) {
-  return numbers.reduce((sum, n) => sum + n * n, 0);
+function squareSum(n){
+    let squaredNumbers = n.map(num => num * num);
+    let sum = squaredNumbers.reduce((acc, val) => acc + val, 0);
+    return sum;
 }
-console.log(squareSum([1, 2]));
 
-module.exports = squareSum;
+const numbers = [1, 2, 2];
+const result = squareSum(numbers);
+console.log(result);  // Outputs: 9
