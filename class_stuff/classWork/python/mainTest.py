@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from classWork.python.headsTails import main, headtails
+from headsTails import main
 
 
 class TestCoinFlip(unittest.TestCase):
