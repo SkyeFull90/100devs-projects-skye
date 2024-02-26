@@ -2,7 +2,7 @@
 
 ## Installation
 
-To run run files in this dir create a venv file by
+To run run files in this dir create a venv file by running the following command
 
 ``` sh
 python3 -m venv .venv
