@@ -1,5 +1,9 @@
 # python dir for all python projects pretaining to 100devs
 
-## To run run file in thsi dir create a venv file by
+## Installation
 
-## running python3 venv venv
+To run run file in thsi dir create a venv file by
+
+``` sh
+python3 -m venv .venv
+```
