@@ -1,5 +1,5 @@
-const assert = require("chai").assert;
-const zeroFuel = require("../zeroFuel");
+import {assert} from "chai";
+import zeroFuel from "../zeroFuel.cjs"
 
 describe("zeroFill", function() {
   it("Sample Tests", function() {
