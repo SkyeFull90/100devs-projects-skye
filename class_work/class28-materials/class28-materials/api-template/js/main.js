@@ -1,4 +1,4 @@
-//Example fetch using pokemonapi.co
+// Fetch using nasa apod api
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
@@ -15,7 +15,7 @@ function getFetch(){
         }else if(data.media_type === 'video'){
           document.querySelector('iframe').src = data.url
         }else{
-          alert('Media Not Supported - Contact NASA IMMEDIATLY')
+          alert('Media Not Supported - Contact NASA IMMEDIATELY')
         }
        
         document.querySelector('h3').innerText = data.explanation
