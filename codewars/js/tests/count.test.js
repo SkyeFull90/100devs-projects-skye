@@ -1,5 +1,5 @@
 import {assert as _assert, config} from 'chai';
-import count from '';
+import count from '../count.cjs';
 
 const assert = _assert;
 config.truncateThreshold = 0;
