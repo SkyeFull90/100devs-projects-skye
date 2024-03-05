@@ -1,4 +1,5 @@
 import {assert as _assert, config} from 'chai';
+import count from '';
 
 const assert = _assert;
 config.truncateThreshold = 0;
