@@ -12,3 +12,5 @@ function duplicateCount(text) {
 
 }
 console.log(duplicateCount("Hello World"));
+
+module.exports = duplicateCount;
