@@ -1,9 +1,6 @@
 ---
 import '../styles/normalize.css'
-import '../styles/reset.css'
 import '../styles/style.css'
-
-
 ---
 
 <html lang="en">
@@ -15,6 +12,44 @@ import '../styles/style.css'
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Which Spell?</h1>
+		<label>
+			<input type="text" name="" value="">
+		</label>
+		<button type="button" name="button">Get Spell Data</button>
+		<img src="../img/" alt="">
+		<h1>Name?</h1>
+		<h2></h2>
+		<h3>Class?</h3>
+		<ul id="class"></ul>
+		<h4>Sub Classes?</h4>
+		<ul id="sub-class"></ul>
+		<script>
+			document.querySelector('button').addEventListener('click', getFetch)
+
+function getFetch(){
+   
+  const choice = document.querySelector('input').value
+  const url = `https://www.dnd5eapi.co/api/spells/${choice}`
+
+  fetch(url)
+      .then(res => res.json()) // parse response as JSON
+      .then(data => {
+          console.log(data)
+          console.log(data.subclasses)
+        data.subclasses.forEach(element => {
+            console.log(element)
+            const li = document.createElement('li')
+            li.innerText = element.name
+            document.querySelector('#sub-class').appendChild(li)
+        });
+          document.querySelector('h2').innerText = data.name
+      })
+      .catch(err => {
+          console.log(`error ${err}`)
+      });
+}
+
+		</script>
 	</body>
 </html>
