@@ -10,7 +10,12 @@ function getFetch(){
       .then(data => {
           console.log(data)
           console.log(data.subclasses)
-
+        data.subclasses.forEach(element => {
+            console.log(element)
+            const li = document.createElement('li')
+            li.innerText = element.name
+            document.querySelector('#sub-class').appendChild(li)
+        });
           document.querySelector('h2').innerText = data.name
       })
       .catch(err => {
