@@ -10,6 +10,7 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
+        document.querySelector('li').innerText = data.docs[0].title
       })
       .catch(err => {
           console.log(`error ${err}`)
