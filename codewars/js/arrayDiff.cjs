@@ -3,3 +3,5 @@ function arrayDiff(a, b) {
 }
 
 console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4, 5, 6, 7], [])); // [1, 2]
+
+module.exports = arrayDiff;
