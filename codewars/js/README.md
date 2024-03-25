@@ -1,4 +1,4 @@
-# js
+# Codewars JS
 
 ## description
 This holds the working directory for code wars problems in JavaScript.
@@ -13,7 +13,8 @@ npm install
 ```
 Using bun js runtime, and to run the tests from the package.json file.
 Make sure you have bun sh installed locally,
-(you can do so at: https://bun.sh if you don't already have bun) run the following command:
+(you can do so at: https://bun.sh if you don't already have bun. Follow the docs there to install bun locally.).
+Then run the following command:
 ```bash
 bun install
 ```
