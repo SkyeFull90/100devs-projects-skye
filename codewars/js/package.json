@@ -2,6 +2,10 @@
   "name": "js",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "coverage": "bun test --coverage"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
