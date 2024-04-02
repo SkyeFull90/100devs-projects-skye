@@ -1,5 +1,5 @@
 import {assert} from "chai";
-
+//simport switchItUp from "../../wrk_codewars/switchIt.js"
 import switchItUp from "../switchItUp.cjs";
 
 describe("Basic Tests",() =>{
