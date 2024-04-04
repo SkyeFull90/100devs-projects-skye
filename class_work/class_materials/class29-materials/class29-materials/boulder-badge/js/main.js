@@ -36,3 +36,8 @@ const ugpl = (partySize) => {
     }
 }
 ugpl(5)
+function undergroundPokemonLeague(partySize){
+    for (let i = 0; i < partySize; i++){
+        console.log("Pikachu I choose you")
+    }
+}
