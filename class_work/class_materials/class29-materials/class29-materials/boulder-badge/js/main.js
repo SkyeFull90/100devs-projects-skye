@@ -41,3 +41,4 @@ function undergroundPokemonLeague(partySize){
         console.log("Pikachu I choose you")
     }
 }
+console.log(undergroundPokemonLeague(6))
