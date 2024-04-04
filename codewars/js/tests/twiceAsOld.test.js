@@ -1,8 +1,6 @@
 import {assert} from "chai";
 import twiceAsOld from "../twiceAsOld.cjs";
 
-chai.config.truncateThreshold=0;
-
 describe("Sample tests", function(){
   it("Testing for dad's age: 36 and son's age: 7", function(){
     assert.strictEqual(twiceAsOld(36,7) , 22);
