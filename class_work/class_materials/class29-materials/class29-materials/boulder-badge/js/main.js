@@ -23,8 +23,16 @@ function fahrenheitToCelcius(fahrenheit){
 }
 console.log(fahrenheitToCelcius(32))
 
+const fToC = (f,c) => c = (f - 32) * 5/9
+console.log(fToC(32))
 //Loops
 //You have joined an underground Pokémon league.
 // In this league, trainers can use any number of Pokémon.
 // Print to the console "Pikachu I choose you"
 // x times when x is the number of Pokémon the trainer you are battling has in their party
+const ugpl = (partySize) => {
+    for (let i = 0; i < partySize; i++){
+        console.log("Pikachu I choose you")
+    }
+}
+ugpl(5)
