@@ -9,7 +9,8 @@
 let bulbasaurCandies = 16-5
 let caterpieCandies = 7-1
 let weedleCandies = 7=1
-let totalCandies 
+let totalCandies = bulbasaurCandies + caterpieCandies + weedleCandies
+console.log(totalCandies)
 
 //Conditionals And Functions
 //You have a charmander in your party.
