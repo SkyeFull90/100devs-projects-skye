@@ -6,7 +6,10 @@
 // Create three variables to store the number of rare candies each of your Pokémon would need to evolve
 // (rare candies increase your level by one).
 // Finally, create a fourth variable named totalCandies that sums all the rare candies you would need.
-
+let bulbasaurCandies = 16-5
+let caterpieCandies = 7-1
+let weedleCandies = 7=1
+let totalCandies 
 
 //Conditionals And Functions
 //You have a charmander in your party.
