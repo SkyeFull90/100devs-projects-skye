@@ -18,7 +18,10 @@ console.log(totalCandies)
 // Create one function
 // that converts a Fahrenheit value to Celcius and another function
 // that tells you whether charmander can battle
-
+function fahrenheitToCelcius(fahrenheit){
+    return (fahrenheit - 32) * 5/9
+}
+console.log(fahrenheitToCelcius(32))
 
 //Loops
 //You have joined an underground Pokémon league.
