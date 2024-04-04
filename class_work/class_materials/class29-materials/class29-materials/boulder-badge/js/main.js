@@ -7,12 +7,14 @@
 // (rare candies increase your level by one).
 // Finally, create a fourth variable named totalCandies that sums all the rare candies you would need.
 
+
 //Conditionals And Functions
 //You have a charmander in your party.
 // Charmander can only battle if the temperature is above 0 degrees celcius.
 // Create one function
 // that converts a Fahrenheit value to Celcius and another function
 // that tells you whether charmander can battle
+
 
 //Loops
 //You have joined an underground Pokémon league.
