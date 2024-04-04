@@ -1,4 +1,5 @@
 import {assert} from "chai";
+import {describe} from "mocha";
 import twiceAsOld from "../twiceAsOld.cjs";
 
 describe("Sample tests", function(){
