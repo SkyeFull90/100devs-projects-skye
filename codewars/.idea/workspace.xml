@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6913dea3-9fdf-49cb-a4de-829b68306d3b" name="Changes" comment="">
+      <changelist_data name="Skye" email="" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Skye" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2d8gTtIWWD5XJ444hhKPoLKgMIN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Mocha.Basic Tests.executor": "Run",
+    "Mocha.Basic tests.executor": "Run",
+    "Mocha.Fixed Tests.executor": "Run",
+    "Mocha.GetMiddle.executor": "Run",
+    "Mocha.Invert array values.executor": "Run",
+    "Mocha.Public tests.executor": "Run",
+    "Mocha.Sample Tests.executor": "Run",
+    "Mocha.Tests (1).executor": "Run",
+    "Mocha.Tests.executor": "Run",
+    "Mocha.isSquare.executor": "Run",
+    "Mocha.js/tests/arrayDiff.test.js.executor": "Run",
+    "Mocha.js/tests/count.test.js.executor": "Run",
+    "Mocha.js/tests/getDivisors.test.js.executor": "Run",
+    "Mocha.js/tests/getMiddle.test.js.executor": "Run",
+    "Mocha.js/tests/minMax.test.js.executor": "Run",
+    "Mocha.js/tests/solution.test.js.executor": "Run",
+    "Mocha.js/tests/switchItUp.test.js.executor": "Run",
+    "Mocha.js/tests/triangle.test.js.executor": "Run",
+    "Mocha.js/tests/twiceAsOld.test.js.executor": "Run",
+    "Mocha.js/tests/zeroFuel.test.js.executor": "Run",
+    "Mocha.stringToNumber.executor": "Run",
+    "Mocha.zeroFill.executor": "Run",
+    "Node.js.arrayDiff.cjs.executor": "Run",
+    "Node.js.count.cjs.executor": "Run",
+    "Node.js.countStr.js.executor": "Run",
+    "Node.js.dupCount.cjs.executor": "Run",
+    "Node.js.filter_list.cjs.executor": "Run",
+    "Node.js.filter_list.js.executor": "Run",
+    "Node.js.getDivisors.cjs.executor": "Run",
+    "Node.js.getMiddle.cjs.executor": "Run",
+    "Node.js.invert.cjs.executor": "Run",
+    "Node.js.isSquare.cjs.executor": "Run",
+    "Node.js.minMax.js.executor": "Run",
+    "Node.js.past.cjs.executor": "Run",
+    "Node.js.reverseStr.js.executor": "Run",
+    "Node.js.solution.cjs.executor": "Run",
+    "Node.js.stingToNum.js.executor": "Run",
+    "Node.js.switchIt.js.executor": "Run",
+    "Node.js.switchItUp.cjs.executor": "Run",
+    "Node.js.triangle.cjs.executor": "Run",
+    "Node.js.twiceAsOld.cjs.executor": "Run",
+    "Node.js.zeroFuel.cjs.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "javascript.nodejs.core.library.configured.version": "21.6.2",
+    "javascript.nodejs.core.library.typings.version": "20.12.4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/taiko/100devs-projects-skye/codewars/js/tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "/home/taiko/100devs-projects-skye/codewars/js/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "npm.coverage.executor": "Run",
+    "npm.test.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/taiko/100devs-projects-skye/codewars/js/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/tests" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Basic Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/js/tests/switchItUp.test.js</test-file>
+      <test-names>
+        <name value="Basic Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Basic tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/js/tests/solution.test.js</test-file>
+      <test-names>
+        <name value="Basic tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetMiddle" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/js/tests/getMiddle.test.js</test-file>
+      <test-names>
+        <name value="GetMiddle" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Invert array values" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/js/tests/invert.test.js</test-file>
+      <test-names>
+        <name value="Invert array values" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/js/tests/getDivisors.test.js</test-file>
+      <test-names>
+        <name value="Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Invert array values" />
+        <item itemvalue="Mocha.Basic Tests" />
+        <item itemvalue="Mocha.Tests" />
+        <item itemvalue="Mocha.Basic tests" />
+        <item itemvalue="Mocha.GetMiddle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6913dea3-9fdf-49cb-a4de-829b68306d3b" name="Changes" comment="" />
+      <created>1709395132639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709395132639</updated>
+      <workItem from="1709395133607" duration="536000" />
+      <workItem from="1709395697511" duration="189000" />
+      <workItem from="1709660986013" duration="204000" />
+      <workItem from="1709661227346" duration="2155000" />
+      <workItem from="1709663559233" duration="24000" />
+      <workItem from="1709664162158" duration="2716000" />
+      <workItem from="1709702405565" duration="24000" />
+      <workItem from="1709782468585" duration="5000" />
+      <workItem from="1709834104086" duration="1641000" />
+      <workItem from="1709914833988" duration="714000" />
+      <workItem from="1709916517538" duration="1658000" />
+      <workItem from="1709996943396" duration="45000" />
+      <workItem from="1710001568051" duration="1175000" />
+      <workItem from="1710260377875" duration="599000" />
+      <workItem from="1710365941563" duration="1633000" />
+      <workItem from="1710427241189" duration="337000" />
+      <workItem from="1710476443702" duration="5000" />
+      <workItem from="1710521647901" duration="1759000" />
+      <workItem from="1710689925762" duration="656000" />
+      <workItem from="1710770790606" duration="2395000" />
+      <workItem from="1710789801579" duration="20000" />
+      <workItem from="1710991891245" duration="657000" />
+      <workItem from="1711036830341" duration="1149000" />
+      <workItem from="1711296664565" duration="1359000" />
+      <workItem from="1711298266525" duration="37000" />
+      <workItem from="1711387059679" duration="4991000" />
+      <workItem from="1711554958132" duration="1473000" />
+      <workItem from="1711568551108" duration="19000" />
+      <workItem from="1711734978111" duration="1052000" />
+      <workItem from="1711898178991" duration="3554000" />
+      <workItem from="1712016019615" duration="663000" />
+      <workItem from="1712016697466" duration="25000" />
+      <workItem from="1712026138397" duration="2043000" />
+      <workItem from="1712033373834" duration="515000" />
+      <workItem from="1712085584499" duration="3781000" />
+      <workItem from="1712123650610" duration="23000" />
+      <workItem from="1712240722643" duration="3399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
