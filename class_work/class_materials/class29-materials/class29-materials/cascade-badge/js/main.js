@@ -8,7 +8,12 @@ console.log(reversePokemonOrder(["Pikachu", "Charmander", "Bulbasaur", "Squirtle
 //Given two integer arrays a, b, both of lengths >= 1,
 // create a program that returns true
 // if the sum of the squares of each element in an is strictly greater than the sum of the cubes of each element in b.
-
+function sumOfSquaresIsGreaterThanCubes(a, b) {
+    let sumOfSquares = a.reduce((acc, num) => acc + num ** 2, 0);
+    let sumOfCubes = b.reduce((acc, num) => acc + num ** 3, 0);
+    return sumOfSquares > sumOfCubes;
+}
+console.log(sumOfSquaresIsGreaterThanCubes([1, 2, 3], [1, 2, 3]));
 //Return a new array consisting of elements which are multiple of their own index in an input array (length > 1).
 // Some cases:
 // [22, -6, 32, 82, 9, 25] =>  [-6, 32, 25]
