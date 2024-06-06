@@ -16,3 +16,5 @@ class espressoMachine{
         console.log("your drink is now brewing.")
     }
 }
+
+let  Gaggia = new espressoMachine('red', 'Gaggia', 'Classic Pro', 400);
