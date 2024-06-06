@@ -1,9 +1,8 @@
 # OOP: Object Oriented Programming
 
-## what is it?
+## What is it?
 
-### the tldr
+### The TLDR
 
-a collection of theories that make up the basis of backend devlopment
-
-### the
+A collection of theories and a paradigm, that soon will make up the basis of backend devlopment
+basis.
