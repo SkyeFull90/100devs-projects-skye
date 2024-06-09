@@ -4,8 +4,7 @@
 
 ## The TLDR
 
-A collection of theories and a paradigm, that soon will make up the basis of backend devlopment
-basis.
+A collection of theories and  rules tat make up the OOP paradigm, that also make up the basis of backed devlopment.
 
 ## The Long Version
 
