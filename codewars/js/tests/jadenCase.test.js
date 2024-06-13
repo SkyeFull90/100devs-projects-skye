@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const toJadenCase = require('..jadenCase.cjs'); // Import the function
+const toJadenCase = require('../jadenCase.cjs'); // Import the function
 
 describe("toJadenCase", () => {
   it("should convert a string to Jaden Case", () => {
