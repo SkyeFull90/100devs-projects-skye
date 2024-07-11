@@ -8,5 +8,10 @@ class Anime{
     }
 }
 class Series extends Anime{
-
+    constructor(name, episodes){
+        super(name)
+        this.episodes = episodes
+    }
 }
+let kimetsuNoYaiba = new Anime(`demon slayer`, `30`)
+console.log(kimetsuNoYaiba)
