@@ -1,16 +1,23 @@
 //Create an a class and extend it - Can be anything you would like it to be! 
 class Anime{
     constructor(name){
-        this.name = name
+        this._name = name
+    }
+    get name(){
+        return this._name
+
     }
     weeb(){
-        console.log(`${this.name} is a good anime`)
+        console.log(`${this._name} is a good anime`)
     }
 }
 class Series extends Anime{
     constructor(name, episodes){
         super(name)
-        this.episodes = episodes
+        this._episodes = episodes
+    }
+    get episodes(){
+        return this._episodes
     }
 }
-let kimetsuNoYaiba = new Anime(`demon slayer`, `30`)
+let kimetsuNoYaiba = new Series('demon slayer', '30')
