@@ -19,5 +19,15 @@ class Series extends Anime{
     get episodes(){
         return this._episodes
     }
+    weeb(){
+        super.weeb()
+        console.log(`${this.name} has ${this.episodes} episodes`)
+    }
 }
 let kimetsuNoYaiba = new Series('demon slayer', '30')
+
+let anime = [kimetsuNoYaiba]
+
+for(a of anime){
+    a.weeb()
+}
