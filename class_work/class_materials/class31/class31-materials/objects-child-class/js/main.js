@@ -14,4 +14,3 @@ class Series extends Anime{
     }
 }
 let kimetsuNoYaiba = new Anime(`demon slayer`, `30`)
-console.log(kimetsuNoYaiba)
