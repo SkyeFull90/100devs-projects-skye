@@ -1,7 +1,7 @@
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-const findSmallestInt = require("../findMinArr");
+const findSmallestInt = require("../findMinArr.cjs");
 
 describe("Smallest Integer Tests", () => {
   it("Fixed Tests", () => {
