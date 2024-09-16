@@ -1,12 +1,12 @@
 function findSmallestInt(arr) {
     if (arr.length === 0) {
-      return undefined; // Handle empty array
+      return undefined; // Handle a empty array
     }
   
     return Math.min(...arr); 
   }
   
-  // Example usage:
+  // Potenial usage:
   const numbers = [5, 2, 8, 1, 9];
   const smallestNumber = findSmallestInt(numbers);
   console.log("The smallest number is:", smallestNumber); // Output: 1
