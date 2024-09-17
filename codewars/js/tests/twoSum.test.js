@@ -1,27 +1,28 @@
-const chai = require('chai');
-const expect = chai.expect;
+const twoSum = require("../twoSum.cjs")
 
-// Your twoSum function
-function twoSum(nums, target) {
-    const seen = {};
-    for (let i = 0; i < nums.length; i++) {
-      const complement = target - nums[i];
-      if (seen[complement] !== undefined) {
-        return [seen[complement], i];
-      }
-      seen[nums[i]] = i;
-    }
-    return [];
+describe("Fixed Tests", function () {
+
+  const chai = require("chai"), { assert } = chai;
+
+  function doTest(numbers, targetSum) {
+    const [idx0, idx1] = twoSum(numbers.slice(), targetSum);
+    const num0 = numbers[idx0], num1 = numbers[idx1], actSum = num0 + num1;
+
+    const message = `for target sum = ${targetSum} and numbers = [${numbers.join(', ')}]\n`;
+
+    assert.notEqual(idx0, idx1,
+      message + `the two indices must be different, but got [${[idx0, idx1]}]\n`
+    );
+    assert.strictEqual(actSum, targetSum,
+      message + `array[${idx0}] = ${num0}, array[${idx1}] = ${num1}\n` +
+      `${num0} + ${num1} = ${actSum}\n`
+    );
   }
-// Test cases
-function testTwoSum(nums, target, expected) {
-  const result = twoSum(nums, target);
-  expect(result).to.be.an('array'); // Assert that the result is an array
-  expect(result.length).to.equal(2); // Assert the array length is 2
-  expect(nums[result[0]] + nums[result[1]]).to.equal(target); // Assert the sum of elements at the returned indices equals the target
-}
 
-
-testTwoSum([2, 7, 11, 15], 9, [0, 1]);
-testTwoSum([3, 2, 4], 6, [1, 2]);
-testTwoSum([3, 3], 6, [0, 1]);
+  it('Sample Tests', function () {
+    doTest([1, 2, 3], 4);
+    doTest([1234, 5678, 9012], 14690);
+    doTest([2, 2, 3], 4);
+    doTest([2, 3, 1], 3);
+  })
+});
