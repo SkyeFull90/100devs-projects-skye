@@ -1,0 +1,7 @@
+{
+  "name": "fizzBuzz",
+  "version": "1.0.0",
+  "description": "fizzBuzz problem",
+  "main": "index.js",
+  "license": "MIT"
+}
