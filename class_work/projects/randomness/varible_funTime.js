@@ -5,3 +5,6 @@ num = num - 10
 
 //print that num to the console
 console.log(num)
+
+//create a varible that holds a value from input
+let numFromInput = document.querySelector('input').value
