@@ -7,4 +7,9 @@ num = num - 10
 console.log(num)
 
 //create a varible that holds a value from input
-let numFromInput = document.querySelector('input').value
+let numFromInput = Number(document.querySelector('#put').value)
+
+//add 25 to that number
+numFromInput += 25
+//alert that number
+alert(numFromInput)
