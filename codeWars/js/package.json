@@ -1,0 +1,19 @@
+{
+  "name": "js",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "coverage": "bun test --coverage"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
