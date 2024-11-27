@@ -23,9 +23,7 @@
 }
 */
 const birthYear = 2000;
-const isAdult = birthYear;
-
-if (isAdult) {
+if (birthYear) {
   console.log("You are of legal age.");
 } else {
   console.log("You are not yet of legal age.");
