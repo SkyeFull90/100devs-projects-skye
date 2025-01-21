@@ -1,4 +1,5 @@
-const alphabetPosition = require("../alphaPosition.cjs")  
+import alphabetPosition from "../alphaPosition.cjs";
+
 const chai = require('chai');
 const expect = chai.expect;
 

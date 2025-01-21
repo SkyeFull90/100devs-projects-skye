@@ -1,4 +1,4 @@
-const twoSum = require("../twoSum.cjs")
+import twoSum from "../twoSum.cjs";
 
 describe("Fixed Tests", function () {
 
