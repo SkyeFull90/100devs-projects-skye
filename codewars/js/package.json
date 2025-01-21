@@ -7,7 +7,8 @@
     "coverage": "bun test --coverage"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "nyc": "^17.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
