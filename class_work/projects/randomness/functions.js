@@ -30,6 +30,6 @@ console.log(remainder(10, 5, 3));
 function mathingAbout(num1, num2, num3, num4){
     let product = num1 * num2
     if (product > 100){
-
+        console.log(product + num3 + num4)
     }
 }
