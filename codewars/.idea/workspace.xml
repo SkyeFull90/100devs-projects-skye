@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6913dea3-9fdf-49cb-a4de-829b68306d3b" name="Changes" comment="">
       <changelist_data name="Skye" email="" automatic="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/js/bun.lockb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +35,12 @@
     &quot;assignee&quot;: &quot;SkyeFull90&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/SkyeFull90/100devs-projects-skye.git&quot;,
-    &quot;accountId&quot;: &quot;4424f22a-74ed-439b-8955-264d82f3afa3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SkyeFull90/100devs-projects-skye.git",
+    "accountId": "3e9ba40e-004c-4cb3-8b9e-9317de88164e"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,74 +55,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Mocha.Basic Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Basic tests.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Fixed Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.GetMiddle.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Invert array values.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Public tests.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Sample Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Tests (1).executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.alphabetPosition.executor&quot;: &quot;Coverage&quot;,
-    &quot;Mocha.isSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/addBinary.test.js.executor&quot;: &quot;Coverage&quot;,
-    &quot;Mocha.js/tests/arrayDiff.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/count.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/getDivisors.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/getMiddle.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/minMax.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/solution.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/switchItUp.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/triangle.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/twiceAsOld.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.js/tests/zeroFuel.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.stringToNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Mocha.zeroFill.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.arrayDiff.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.count.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.countStr.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.dupCount.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.filter_list.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.filter_list.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.getDivisors.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.getMiddle.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.invert.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.isSquare.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.minMax.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.past.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.reverseStr.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.solution.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.stingToNum.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.switchIt.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.switchItUp.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.triangle.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.twiceAsOld.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.zeroFuel.cjs.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.6.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nyx/100devs-projects-skye/codewars/js/node_modules&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;/home/nyx/100devs-projects-skye/codewars/js/node_modules/mocha&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.coverage.executor&quot;: &quot;Run&quot;,
-    &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/nyx/100devs-projects-skye/codewars/js/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Mocha.Basic Tests.executor": "Run",
+    "Mocha.Basic tests.executor": "Run",
+    "Mocha.Fixed Tests.executor": "Run",
+    "Mocha.GetMiddle.executor": "Run",
+    "Mocha.Invert array values.executor": "Run",
+    "Mocha.Public tests.executor": "Run",
+    "Mocha.Sample Tests.executor": "Run",
+    "Mocha.Tests (1).executor": "Run",
+    "Mocha.Tests.executor": "Run",
+    "Mocha.alphabetPosition.executor": "Coverage",
+    "Mocha.isSquare.executor": "Run",
+    "Mocha.js/tests/addBinary.test.js.executor": "Coverage",
+    "Mocha.js/tests/arrayDiff.test.js.executor": "Run",
+    "Mocha.js/tests/count.test.js.executor": "Run",
+    "Mocha.js/tests/getDivisors.test.js.executor": "Run",
+    "Mocha.js/tests/getMiddle.test.js.executor": "Run",
+    "Mocha.js/tests/minMax.test.js.executor": "Run",
+    "Mocha.js/tests/solution.test.js.executor": "Run",
+    "Mocha.js/tests/switchItUp.test.js.executor": "Run",
+    "Mocha.js/tests/triangle.test.js.executor": "Run",
+    "Mocha.js/tests/twiceAsOld.test.js.executor": "Run",
+    "Mocha.js/tests/zeroFuel.test.js.executor": "Run",
+    "Mocha.stringToNumber.executor": "Run",
+    "Mocha.zeroFill.executor": "Run",
+    "Node.js.arrayDiff.cjs.executor": "Run",
+    "Node.js.count.cjs.executor": "Run",
+    "Node.js.countStr.js.executor": "Run",
+    "Node.js.dupCount.cjs.executor": "Run",
+    "Node.js.filter_list.cjs.executor": "Run",
+    "Node.js.filter_list.js.executor": "Run",
+    "Node.js.getDivisors.cjs.executor": "Run",
+    "Node.js.getMiddle.cjs.executor": "Run",
+    "Node.js.invert.cjs.executor": "Run",
+    "Node.js.isSquare.cjs.executor": "Run",
+    "Node.js.minMax.js.executor": "Run",
+    "Node.js.past.cjs.executor": "Run",
+    "Node.js.reverseStr.js.executor": "Run",
+    "Node.js.solution.cjs.executor": "Run",
+    "Node.js.stingToNum.js.executor": "Run",
+    "Node.js.switchIt.js.executor": "Run",
+    "Node.js.switchItUp.cjs.executor": "Run",
+    "Node.js.triangle.cjs.executor": "Run",
+    "Node.js.twiceAsOld.cjs.executor": "Run",
+    "Node.js.zeroFuel.cjs.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "23.6.0",
+    "javascript.nodejs.core.library.typings.version": "22.13.1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nyx/100devs-projects-skye/codewars/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "/home/nyx/100devs-projects-skye/codewars/js/node_modules/mocha",
+    "nodejs_package_manager_path": "npm",
+    "npm.coverage.executor": "Run",
+    "npm.test.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/nyx/100devs-projects-skye/codewars/js/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
@@ -169,7 +167,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -219,6 +217,7 @@
       <workItem from="1712123650610" duration="23000" />
       <workItem from="1712240722643" duration="3399000" />
       <workItem from="1737605146575" duration="461000" />
+      <workItem from="1738728480010" duration="777000" />
     </task>
     <servers />
   </component>
