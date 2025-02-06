@@ -17,7 +17,7 @@ console.log(num)
 const h1 = document.querySelector('h1')
 h1.addEventListener('click', addTwo)
 function addTwo(){
-    let numFromInput = Number(document.querySelector('#put').value)
+    let numFromInput = Number(document.querySelector('#put').valueOf())
     numFromInput += 25
     console.log(num + numFromInput) 
 }
