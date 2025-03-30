@@ -7,7 +7,6 @@
     "coverage": "bun test --coverage"
   },
   "devDependencies": {
-    "@codewars/test-compat": "^1.1.0",
     "@types/bun": "latest",
     "chai": "^5.2.0",
     "mocha": "^11.1.0",
