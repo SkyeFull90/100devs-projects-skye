@@ -7,12 +7,13 @@
     "coverage": "bun test --coverage"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "chai": "^5.2.0",
-    "mocha": "^11.1.0",
-    "nyc": "^17.1.0"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^11.0.1"
   }
 }
