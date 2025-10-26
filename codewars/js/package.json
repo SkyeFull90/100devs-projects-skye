@@ -13,7 +13,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "chai": "^5.1.0",
+    "chai": "^5.3.3",
     "mocha": "^11.7.1"
   }
 }
