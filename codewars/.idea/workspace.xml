@@ -6,14 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="6913dea3-9fdf-49cb-a4de-829b68306d3b" name="Changes" comment="">
       <changelist_data name="Skye" email="" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/js/boolToStr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tests/boolToStr.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/.nyc_output/9306d1a0-ae9c-40e1-8d4d-f109356ab852.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/.nyc_output/processinfo/9306d1a0-ae9c-40e1-8d4d-f109356ab852.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/.nyc_output/processinfo/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/grasshopper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/tests/grasshopper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/js/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="175" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +57,69 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000001427505856" />
+      <entry key="S2" value="1.0194376820827886" />
+      <entry key="S5" value="1.2067558423947398" />
+      <entry key="S10" value="1.454721301801869" />
+      <entry key="S30" value="1.8204117494278789" />
+      <entry key="S60" value="2.5782062683247147" />
+      <entry key="M2" value="5.6629654343172495" />
+      <entry key="M5" value="20.006515939702794" />
+      <entry key="M10" value="37.58374641585498" />
+      <entry key="M15" value="47.331573911190844" />
+      <entry key="M30" value="60.13319150101697" />
+      <entry key="H1" value="67.98305193095517" />
+      <entry key="H2" value="72.33496815463533" />
+      <entry key="H4" value="74.62692379430914" />
+      <entry key="D1" value="76.59872905734103" />
+      <entry key="W1" value="76.94253290357942" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.363250357441711E-166" />
+      <entry key="S2" value="5.3776653709120106E-42" />
+      <entry key="S5" value="3.106257894115497E-17" />
+      <entry key="S10" value="5.573381284390332E-9" />
+      <entry key="S30" value="0.0017732242741540054" />
+      <entry key="S60" value="0.04279035307339596" />
+      <entry key="M2" value="0.24215482906856967" />
+      <entry key="M5" value="0.9358994554322178" />
+      <entry key="M10" value="1.62868556368156" />
+      <entry key="M15" value="1.9842452945040943" />
+      <entry key="M30" value="2.4325106542367734" />
+      <entry key="H1" value="2.6994115357466275" />
+      <entry key="H2" value="2.8452236599886307" />
+      <entry key="H4" value="2.9214554414181624" />
+      <entry key="D1" value="2.986745490693899" />
+      <entry key="W1" value="2.9981024468679016" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.1310223414014597E-19" />
+      <entry key="MS500" value="1.9913057123716383E-4" />
+      <entry key="S2" value="0.1230333272486035" />
+      <entry key="S5" value="0.5389638372351604" />
+      <entry key="S10" value="0.9884433693883572" />
+      <entry key="S30" value="1.612311188764476" />
+      <entry key="S60" value="2.4898922867996403" />
+      <entry key="M2" value="5.8079156782777615" />
+      <entry key="M5" value="20.875206519834826" />
+      <entry key="M10" value="39.16734791783126" />
+      <entry key="M15" value="49.28206580731044" />
+      <entry key="M30" value="62.54655612558145" />
+      <entry key="H1" value="70.67222647514596" />
+      <entry key="H2" value="75.17489338196539" />
+      <entry key="H4" value="77.5456831606703" />
+      <entry key="D1" value="79.58501852840074" />
+      <entry key="W1" value="79.94057003914021" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -82,6 +157,7 @@
     "Mocha.js/tests/triangle.test.js.executor": "Run",
     "Mocha.js/tests/twiceAsOld.test.js.executor": "Run",
     "Mocha.js/tests/zeroFuel.test.js.executor": "Run",
+    "Mocha.should add all goals.executor": "Coverage",
     "Mocha.stringToNumber.executor": "Run",
     "Mocha.zeroFill.executor": "Run",
     "Node.js.arrayDiff.cjs.executor": "Run",
@@ -93,6 +169,7 @@
     "Node.js.filter_list.js.executor": "Run",
     "Node.js.getDivisors.cjs.executor": "Run",
     "Node.js.getMiddle.cjs.executor": "Run",
+    "Node.js.grasshopper.js.executor": "Run",
     "Node.js.invert.cjs.executor": "Run",
     "Node.js.isSquare.cjs.executor": "Run",
     "Node.js.minMax.js.executor": "Run",
@@ -105,24 +182,31 @@
     "Node.js.triangle.cjs.executor": "Run",
     "Node.js.twiceAsOld.cjs.executor": "Run",
     "Node.js.zeroFuel.cjs.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "23.6.0",
-    "javascript.nodejs.core.library.typings.version": "22.13.4",
+    "javascript.nodejs.core.library.configured.version": "26.12.1",
+    "javascript.nodejs.core.library.typings.version": "26.6.5",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nyx/100devs-projects-skye/codewars/js",
+    "last_opened_file_path": "/Users/skyefullmer/100devs-projects-skye/codeWars",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.mocha.mocha_node_package_dir": "/home/nyx/100devs-projects-skye/codewars/js/node_modules/mocha",
+    "nodejs.mocha.mocha_node_package_dir": "/Users/skyefullmer/100devs-projects-skye/codeWars/js/node_modules/mocha",
     "nodejs_package_manager_path": "npm",
     "npm.coverage.executor": "Run",
     "npm.test.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/nyx/100devs-projects-skye/codewars/js/node_modules/typescript/lib",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/skyefullmer/100devs-projects-skye/codeWars/js/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -135,8 +219,23 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Mocha.should add all goals">
     <configuration name="Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/js/__tests__</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>tdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/js/__tests__/goal.test.js</test-file>
+      <test-names>
+        <name value="Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should add all goals" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/js/node_modules/mocha</mocha-package>
@@ -144,23 +243,28 @@
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/js/tests/boolToStr.test.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/js/tests/addBinary.test.js</test-file>
       <test-names>
-        <name value="Tests" />
+        <name value="should add all goals" />
       </test-names>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Mocha.should add all goals" />
+      <item itemvalue="Mocha.Tests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Mocha.Tests" />
+        <item itemvalue="Mocha.should add all goals" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
       </set>
     </attachedChunks>
   </component>
@@ -212,6 +316,8 @@
       <workItem from="1737605146575" duration="461000" />
       <workItem from="1738728480010" duration="777000" />
       <workItem from="1739850150772" duration="974000" />
+      <workItem from="1792902752516" duration="1442000" />
+      <workItem from="1792904209906" duration="1514000" />
     </task>
     <servers />
   </component>
@@ -231,5 +337,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/codeWars$should_add_all_goals.dat" NAME="should add all goals Coverage Results" MODIFIED="1792903769932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
