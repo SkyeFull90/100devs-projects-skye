@@ -8,12 +8,18 @@ const houseOne = () => {
 // function houseTwo(){
 //     console.log('Paper delivered to house 2')
 // }
+const houseTwo = () => {
+    console.log('Paper delivered to house 2')
+}
 // function houseThree(){
 //     console.log('Paper delivered to house 3')
 // }
+const houseThree = () => {
+    console.log('Paper delivered to house 3')
+}
  houseOne()
-// houseTwo()
-// houseThree()
+ houseTwo()
+ houseThree()
 
 //Code 02
 // function houseOne(){
